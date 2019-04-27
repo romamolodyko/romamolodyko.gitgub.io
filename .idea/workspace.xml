@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b64d9e-2de2-4889-ba18-9b4d1c730a51" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/images/flowers_shadow_light_big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_flowers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_opacity_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shadow_bottom_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flowers_bg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,25 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="360" column="37" selection-start-line="360" selection-start-column="35" selection-end-line="360" selection-end-column="38" />
+            <state relative-caret-position="5820">
+              <caret line="291" column="54" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="260">
+              <caret line="1055" column="21" selection-start-line="1055" selection-start-column="21" selection-end-line="1055" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flowers_bg_big.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/flowers_bg_big.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.landing-form__field</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -80,6 +97,11 @@
               <item name="romamolodyko.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="romamolodyko.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="romamolodyko.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,6 +117,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\thesvadba\verstkamaster\romamolodyko.github.io\images" />
       <recent name="E:\thesvadba\verstkamaster\romamolodyko.github.io" />
     </key>
   </component>
@@ -121,18 +144,18 @@
       <option name="presentableId" value="Default" />
       <updated>1556301275718</updated>
       <workItem from="1556301279540" duration="929000" />
-      <workItem from="1556349574530" duration="4333000" />
+      <workItem from="1556349574530" duration="10093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5262000" />
+    <option name="totallyTimeSpent" value="11022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -171,17 +194,23 @@
     <entry file="file://$PROJECT_DIR$/images/bus.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/shadow_bottom_white.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="360" column="37" selection-start-line="360" selection-start-column="35" selection-end-line="360" selection-end-column="38" />
+        <state relative-caret-position="5820">
+          <caret line="291" column="54" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/flowers_bg_big.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1055" column="21" selection-start-line="1055" selection-start-column="21" selection-end-line="1055" selection-end-column="21" />
         </state>
       </provider>
     </entry>

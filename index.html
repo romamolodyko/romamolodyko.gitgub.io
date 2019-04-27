@@ -51,21 +51,6 @@
         </div>
     </div>
 </section>
-<style type="text/css">
-    .landing-quote__wrap_mobile {
-        display: none;
-    }
-
-    @media only screen and (max-width: 767px) {
-        .landing-quote__wrap_desktop {
-            display: none;
-        }
-
-        .landing-quote__wrap_mobile {
-            display: block;
-        }
-    }
-</style>
 <section class="landing-section">
     <div class="landing-quote__wrap landing-quote__wrap_mobile wrap">
         <div class="landing-quote__quote">
@@ -79,10 +64,8 @@
     }
 
     .landing-services {
-        /*background-color: #F2F2F2;*/
         padding-top: 36px;
         padding-bottom: 36px;
-        /*margin-top: 40px;*/
     }
 
     .landing-services__list {
@@ -121,7 +104,6 @@
         font-family: "FuturaBookC", sans-serif;
         display: inline-block;
         width: auto;
-        /*border: 1px solid #f6d808;*/
         border: 0;
         padding: 20px;
     }
@@ -193,7 +175,7 @@
 </section>
 <style>
     .landing-order {
-        background: url(images/flowers_bg_big.png) center center no-repeat;
+        background: url(images/flowers_shadow_black.png) center center no-repeat;
         width: 100%;
         display: inline-block;
     }
@@ -214,7 +196,6 @@
 
     .landing-order__header p {
         font-size: 19px;
-        /*font-family: "FuturaFuturisLightC", sans-serif;*/
         line-height: 22px;
         margin-top: 10px;
     }
@@ -245,10 +226,6 @@
     }
 
     @media only screen and (min-width: 980px) {
-        .landing-order {
-            /*min-height: 424px;*/
-            /*background-size: 100%;*/
-        }
         .landing-order__header {
             font-size: 32px;
             margin-bottom: 70px;
@@ -272,6 +249,20 @@
         }
     }
 
+    @media only screen and (min-width: 1025px) {
+        .landing-order {
+            background: url(images/flowers_shadow_light.jpg) center center no-repeat;
+            -webkit-background-size: 100%;
+            background-size: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1136px) {
+        .landing-order .landing-button {
+            padding: 9px;
+            white-space: normal;
+        }
+    }
 </style>
 <section class="landing-section">
     <div class="landing-order">
@@ -302,7 +293,6 @@
 
     .landing-services__header {
         text-align: center;
-        /*font-family: "FuturaFuturisLightC", sans-serif;*/
         color: #8F8A89;
         font-size: 33px;
         margin-bottom: 25px;
@@ -310,7 +300,6 @@
 
     .landing-services__header p {
         font-size: 19px;
-        /*font-family: "FuturaFuturisLightC", sans-serif;*/
         line-height: 22px;
         margin-top: 10px;
     }
@@ -383,12 +372,6 @@
     }
 
     @media only screen and (min-width: 980px) {
-        .landing-order {
-            background: url(images/flowers_bg.png) center center no-repeat;
-            -webkit-background-size: 100%;
-            background-size: 100%;
-        }
-
         .landing-services__header p {
             font-size: 21px;
         }
@@ -606,8 +589,6 @@
         color: #8F8A89;
         line-height: 1.2;
         text-align: center;
-        /*font-variant: small-caps;*/
-        /*font-weight: 600;*/
     }
 
     .landing-comment__list {
@@ -723,7 +704,6 @@
         text-align: center;
         color: #8F8A89;
         font-size: 33px;
-        /*font-family: "FuturaFuturisLightC", sans-serif;*/
         margin-bottom: 25px;
     }
 
@@ -931,8 +911,7 @@
     }
 
     .landing-order-contact {
-        background: url(images/big_bg.png) bottom center no-repeat;
-        /*background-position-y: -220px;*/
+        background: url(images/flowers_shadow_light_big.jpg) bottom center no-repeat;
         -webkit-background-size: 100%;
         background-size: 100%;
     }
@@ -972,12 +951,10 @@
 
     .landing-order-contact__email {
         margin-top: 35px;
-        /*margin: 20px 0 10px 0;*/
     }
 
     .landing-order-contact__phone {
         margin-top: 90px;
-        /*margin: 20px 0 10px 0;*/
     }
     
     .landing-order-contact__phone a, .landing-order-contact__email a {
@@ -1034,7 +1011,6 @@
             text-align: center;
             margin-top: 25px;
             margin-bottom: 25px;
-            /*margin: 20px 0 10px 0;*/
         }
 
         .landing-order-contact {
@@ -1061,11 +1037,16 @@
         }
     }
 
-
     @media only screen and (max-width: 768px) {
         .landing-order-contact textarea {
             padding-top: 10px;
             height: 44px;
+        }
+    }
+
+    @media only screen and (max-width: 1260px) and (min-width: 1022px) {
+        .landing-order-contact__phone a, .landing-order-contact__email a {
+            font-size: 24px;
         }
     }
 
@@ -1075,12 +1056,12 @@
         <div class="landing-order-contact__wrap row">
             <div class="landing-order-contact__contact col-sm-12 col-md-6">
                 <div class="landing-order-contact__phone row">
-                    <div class="landing-order-contact__phone-label col-xs-12 col-sm-6 col-md-4">Телефон</div>
-                    <a class="col-xs-12 col-sm-6 col-md-8" href="tel:380688632740">(068) 863-27-40</a>
+                    <div class="landing-order-contact__phone-label col-xs-12 col-md-4">Телефон</div>
+                    <a class="col-xs-12 col-sm-12 col-md-8" href="tel:380688632740">(068) 863-27-40</a>
                 </div>
                 <div class="landing-order-contact__email row">
-                    <div class="landing-order-contact__email-label col-xs-12 col-sm-6 col-md-4">E-mail</div>
-                    <a class="col-xs-12 col-sm-6 col-md-8" href="mailto:thesvadbainfo@gmail.com">thesvadbainfo@gmail.com</a>
+                    <div class="landing-order-contact__email-label col-xs-12 col-md-4">E-mail</div>
+                    <a class="col-xs-12 col-sm-12 col-md-8" href="mailto:thesvadbainfo@gmail.com">thesvadbainfo@gmail.com</a>
                 </div>
             </div>
             <div class="landing-form col-xs12 col-md-6 row">

@@ -202,6 +202,7 @@ ul {
     display: inline-block;
     color: #444444;
     font-size: 14px;
+    margin-left: -20px;
 }
 
 .landing-nav__logo a {
@@ -288,7 +289,7 @@ ul {
 }
 
 .landing-banner__shadow {
-    background-image: url(../images/bg_opacity_white.png);
+    background-image: url(../images/shadow_bottom_white.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -356,6 +357,20 @@ ul {
 .landing-quote__quote:after{
     right: -60px;
     bottom: 40px;
+}
+
+.landing-quote__wrap_mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .landing-quote__wrap_desktop {
+        display: none;
+    }
+
+    .landing-quote__wrap_mobile {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 420px) {
