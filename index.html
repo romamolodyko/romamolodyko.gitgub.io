@@ -42,12 +42,34 @@
             <div class="landing-banner__header wrap">
                 <div class="landing-banner__header-text"><span>Все свадебные специалисты в одном месте</span></div>
                 <h2>Подбери проверенного специалиста для свадьбы своей мечты в один клик</h2>
-                <div class="landing-quote__wrap wrap">
+                <div class="landing-quote__wrap landing-quote__wrap_desktop">
                     <div class="landing-quote__quote">
                         Тебе нужно лишь выбрать нужного специалиста в нашей базе,<br> а наши менеджеры проконтролируют его работу на всех этапах
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<style type="text/css">
+    .landing-quote__wrap_mobile {
+        display: none;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .landing-quote__wrap_desktop {
+            display: none;
+        }
+
+        .landing-quote__wrap_mobile {
+            display: block;
+        }
+    }
+</style>
+<section class="landing-section">
+    <div class="landing-quote__wrap landing-quote__wrap_mobile wrap">
+        <div class="landing-quote__quote">
+            Тебе нужно лишь выбрать нужного специалиста в нашей базе,<br> а наши менеджеры проконтролируют его работу на всех этапах
         </div>
     </div>
 </section>
@@ -716,6 +738,32 @@
         }
     }
 
+    @media only screen and (min-width: 768px) {
+        .landing-comment__arrow {
+            width: 35px;
+            height: 35px;
+        }
+
+        .landing-comment .owl-nav .owl-next, .landing-comment .owl-nav .owl-prev {
+            width: 60px;
+            height: 60px;
+        }
+
+        .landing-comment .owl-nav {
+            top: 33%;
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .landing-comment .owl-nav .owl-prev {
+            left: -30px;
+        }
+
+        .landing-comment .owl-nav .owl-next {
+            right: -30px;
+        }
+    }
+
 </style>
 
 <section class="landing-section">
@@ -1012,6 +1060,15 @@
             font-size: 20px;
         }
     }
+
+
+    @media only screen and (max-width: 768px) {
+        .landing-order-contact textarea {
+            padding-top: 10px;
+            height: 44px;
+        }
+    }
+
 </style>
 <section class="landing-section">
     <div class="landing-order-contact">

@@ -364,6 +364,18 @@ ul {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .landing-banner {
+        background-position-x: -225px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .landing-banner {
+        background-position-x: -245px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .landing-nav__menu, .landing-nav__callback {
         display: block;
