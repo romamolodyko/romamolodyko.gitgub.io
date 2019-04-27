@@ -123,6 +123,10 @@
         text-align: center;
     }
 
+    .landing-services__list .row {
+        justify-content: center;
+    }
+
     @media only screen and (min-width: 980px) {
         .landing-service {
             margin-bottom: 12px;
@@ -132,33 +136,34 @@
 </style>
 <section class="landing-section">
     <div class="landing-services">
-        <div class="landing-services__list wrap row">
-            <div class="landing-service col-xs-12 col-sm-6 col-md-6">
-                <div class="landing-service__inner">
-                    <img class="landing-service__image" src="images/services/small/IMG_8273.jpg" alt="">
-                    <div class="landing-service__text">Фотосьемка в ЗАГСЕ</div>
+        <div class="landing-services__list wrap">
+            <div class="row">
+                <div class="landing-service col-xs-12 col-sm-6 col-md-6">
+                    <div class="landing-service__inner">
+                        <img class="landing-service__image" src="images/services/small/IMG_8273.jpg" alt="">
+                        <div class="landing-service__text">Фотосьемка в ЗАГСЕ</div>
+                    </div>
                 </div>
-            </div>
-            <div class="landing-service col-xs-12 col-sm-6">
-                <div class="landing-service__inner">
-                    <img class="landing-service__image" src="images/services/small/IMG_2.jpg" alt="">
-                    <div class="landing-service__text">Видеосьемка в ЗАГСЕ</div>
+                <div class="landing-service col-xs-12 col-sm-6">
+                    <div class="landing-service__inner">
+                        <img class="landing-service__image" src="images/services/small/IMG_2.jpg" alt="">
+                        <div class="landing-service__text">Видеосьемка в ЗАГСЕ</div>
+                    </div>
                 </div>
-            </div>
-            <div class="landing-service col-xs-12 col-sm-6">
-                <div class="landing-service__inner">
-                    <img class="landing-service__image" src="images/services/small/IMG_827.jpg" alt="">
-                    <div class="landing-service__text">Фотосьемка в Готово</div>
+                <div class="landing-service col-xs-12 col-sm-6">
+                    <div class="landing-service__inner">
+                        <img class="landing-service__image" src="images/services/small/IMG_827.jpg" alt="">
+                        <div class="landing-service__text">Фотосьемка в Готово</div>
+                    </div>
                 </div>
-            </div>
-            <div class="landing-service col-xs-12 col-sm-6">
-                <div class="landing-service__inner">
-                    <img class="landing-service__image" src="images/services/small/IMG_82.jpg" alt="">
-                    <div class="landing-service__text">Видеосьемка в Готово</div>
+                <div class="landing-service col-xs-12 col-sm-6">
+                    <div class="landing-service__inner">
+                        <img class="landing-service__image" src="images/services/small/IMG_82.jpg" alt="">
+                        <div class="landing-service__text">Видеосьемка в Готово</div>
+                    </div>
                 </div>
             </div>
         </div>
-
         <div class="landing-services__show-more">
             <button class="landing-button landing-button_yellow">Больше услуг <i class="landing-icon landing-icon__arrow-right"></i></button>
         </div>
@@ -996,6 +1001,17 @@
             background-position-y: -210px;
         }
     }
+
+
+    @media only screen and (max-width: 420px) {
+        .landing-form__field {
+
+        }
+
+        .landing-order-contact__email a {
+            font-size: 20px;
+        }
+    }
 </style>
 <section class="landing-section">
     <div class="landing-order-contact">
@@ -1021,7 +1037,7 @@
                     <input class="landing-form__field" type="text" placeholder="Ваш Email">
                 </div>
                 <div class="landing-form__inner col-xs-12">
-                    <textarea class="landing-form__field" name="message" id="" cols="30" rows="30" placeholder="Ваш телефон"></textarea>
+                    <textarea class="landing-form__field" name="message" id="" rows="30" placeholder="Ваш телефон"></textarea>
                 </div>
                 <div class=" col-xs-12">
                     <button class="landing-button landing-button_yellow ">Получить консультацию</button>
